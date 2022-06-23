@@ -93,6 +93,10 @@ hr {
   border: 0;
   opacity: 0.25;
 }
+img {
+    width: auto;
+    max-width: 100%;
+}
 hr:not([size]) {
   height: 1px;
 }
@@ -4289,7 +4293,7 @@ fieldset:disabled .btn {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid #e2e5f1;
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4316,7 +4320,7 @@ fieldset:disabled .btn {
 }
 .card-body {
   flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 1.5rem 1.5rem;
 }
 .card-title {
   margin-bottom: 0.5rem;
@@ -7312,6 +7316,9 @@ fieldset:disabled .btn {
 }
 .rounded-3 {
   border-radius: 0.3rem !important;
+}
+.rounded-4 {
+  border-radius: 0.5rem !important;
 }
 .rounded-circle {
   border-radius: 50% !important;
