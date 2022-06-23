@@ -73,8 +73,26 @@ body {
   align-items: center;
 }
 
-
-
+/* brand slider css start */
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet {
+  margin-right: 0.4375rem;
+  margin-left: 0.4375rem;
+}
+.swiper-pagination-bullet {
+  width: 0.3125rem;
+  height: 0.3125rem;
+  transition: width .2s ease-in-out,height .2s ease-in-out,background-color .2s ease-in-out;
+  border-radius: 50rem;
+  background-color: #b4b7c9;
+  opacity: 1;
+}
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active, .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet-active {
+  width: 1.5rem;
+}
+.swiper-pagination-bullet-active {
+  background-color: #6366f1;
+}
+/* brand slider css end */
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
