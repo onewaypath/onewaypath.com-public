@@ -14,6 +14,11 @@
         background-repeat: no-repeat;
         background-size: auto;
     }
+    .hero-banner.budha-overview::before{
+        background-image: url(../images/buddhavipassana/budha-overview-banner.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
 }
 @media (min-width: 1200px){
     .pt-100{
@@ -28,6 +33,18 @@
         height: 35px;
         width: 35px;
     }
+    .b-overview-pagelink .col-xl-8{
+        width: 100%;
+    }
+    .b-overview-pagelink .pagelink-col{
+        max-width: 80%;
+    }
+    .b-overview-pagelink .btn-wrp{
+        margin-left: -50px;
+    }
+    .b-overview-pagelink .btn-wrp .btn{
+        margin-left: 50px;
+    }
 }
 @media (max-width: 1460px){
     h1, h2{
@@ -36,7 +53,7 @@
     .right-panel .number{
         font-size: 64px;
     }
-    .center-panel p{
+    .center-panel p,.b-overview-sec .center-panel li{
         font-size: 22px;
     }
     header .menu-icon svg {
@@ -57,7 +74,7 @@
     .proj-card .button-grp-warpper h5 {
         font-size: 14px;
     }
-    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5{
+    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
         font-size: 22px;
     }
     .right-panel .number{
@@ -106,12 +123,31 @@
     .team-sec .team-row {
         margin: 0 -15px -30px;
     }
-    .team-sec .team-box{
+    .team-sec .team-box,.b-overview-sec .overview-box:not(:last-child){
         padding-bottom: 65px;
         margin-bottom: 65px;
     }
     .pagelink .btn-wrp{
         padding: 60px 0;
+    }
+    .b-overview-pagelink .btn-wrp .btn{
+        min-width: 238px;
+    }
+    .b-overview-pagelink .btn-wrp{
+        margin-left: -90px;
+    }
+    .b-overview-pagelink .pagelink-col {
+        max-width: 100%;
+    }
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
+        line-height: 34px;
+    }
+    .b-overview-sec .center-panel li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
+        font-size: 22px;
     }
 }
 @media (max-width: 1199px){
@@ -128,7 +164,7 @@
         min-height: 560px;
     }
     .hero-content p,
-    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5{
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
         font-size: 18px;
     }
     .center-panel h2 {
@@ -170,7 +206,7 @@
     .tbl-sec .btn-wrp .btn,.pagelink .btn-wrp .btn {
         margin-left: 70px;
     }
-    .team-sec .team-box {
+    .team-sec .team-box,.b-overview-sec .overview-box:not(:last-child) {
         padding-bottom: 55px;
         margin-bottom: 55px;
     }
@@ -189,6 +225,16 @@
     }
     .team-sec .team-desc .team-descWrp {
         padding: 30px 15px 0px;
+    }
+    .b-overview-pagelink .btn-wrp {
+        margin-left: -70px;
+    }
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+        line-height: 32px;
+    }
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
+        font-size: 20px;
     }
 }
 @media (max-width: 991px){
@@ -211,7 +257,7 @@
         height: 20px;
         width: 23px;
     }  
-    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p {
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p,.b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
         font-size: 16px;
         line-height: 30px;
     }  
@@ -267,6 +313,7 @@
     }
     .btn::before{
         background-size: 14px;
+        bottom: 5px;
     }
     table thead th, table tbody td{
         font-size: 14px;
@@ -287,9 +334,15 @@
     .pagelink .btn-wrp {
         padding: 50px 0;
     }
-    .team-sec .team-box {
+    .team-sec .team-box,.b-overview-sec .overview-box:not(:last-child) {
         padding-bottom: 50px;
         margin-bottom: 50px;
+    }
+    .b-overview-pagelink .btn-wrp {
+        margin-left: -30px;
+    }
+    .b-overview-pagelink .btn-wrp .btn{
+        min-width: 200px;
     }
 }
 @media (max-width: 767px){
@@ -345,7 +398,7 @@
     .contactus-panel {
         padding: 80px 0 60px;
     }
-    .hero-content p, .center-panel p, .right-panel .detail, .footer p {
+    .hero-content p, .center-panel p, .right-panel .detail, .footer p,.b-overview-sec .center-panel li {
         font-size: 14px;
         line-height: 21px;
     }
@@ -374,6 +427,7 @@
         font-size: 12px;
         width: calc(50% - 54px);
         margin-bottom: 30px;
+        letter-spacing: 1px;
     }
     .btn {
         min-width: 124px;
@@ -400,6 +454,28 @@
     .team-sec {
         padding-bottom: 100px;
     }
+    .b-overview-pagelink .btn-wrp {
+        margin-left: 0;
+    }
+    .b-overview-pagelink .btn-wrp .btn{
+        min-width: 157px;
+    }
+    .hero-banner{
+        padding: 30px 0;
+    }
+    ol {
+        padding-left: 14px;
+    }
+    .m-about .col-right{
+        max-width: 100%;
+    }
+    .m-aboutpage h4,
+    .m-aboutpage .left-panel h4{
+        font-size: 16px;
+    }
+    .m-aboutpage .pagelink .btn-wrp{
+        margin-bottom: -30px;
+    }
 }
 @media (max-width: 575px){
     h3, .h3 {
@@ -420,7 +496,7 @@
     .center-panel p, 
     .right-panel .detail,
     .proj-card .button-grp-warpper h5,
-    .footer,.footer p,
+    .footer,.footer p,.b-overview-sec .center-panel li
     .button-grp-warpper h5{
         font-size: 12px;
         line-height: 18px;
@@ -481,9 +557,29 @@
     .team-sec .team-desc ul li::before {
         top: 5px;
     }
-    .team-sec .team-box {
+    .team-sec .team-box{
         padding-bottom: 30px;
         margin-bottom: 30px;
+    }
+    .b-overview-sec .overview-box:not(:last-child) {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .b-overview-sec .overview-box h2{
+        font-size: 24px;
+    }
+    .hero-banner.budha-overview .hero-content p{
+        width: 100%;
+    }
+}
+@media (max-width: 380px){
+    .b-overview-pagelink .btn-wrp .btn {
+        font-size: 11px;
+        min-width: 149px;
     }
 }
 @media (max-width: 375px){
@@ -497,5 +593,18 @@
     }
     .proj-row > div {
         width: 76%;
+    }
+    .b-overview-pagelink .btn-wrp .btn {
+        min-width: 125px;
+        font-size: 10px;
+        letter-spacing: 0.8px;
+    }
+    .btn::before {
+        background-size: 11px;
+        bottom: 5px;
+        background-position: right center;
+    }
+    .m-about-hero .hero-content p{
+        width: 100%;
     }
 }
