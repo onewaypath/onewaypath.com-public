@@ -47,6 +47,9 @@
     .b-overview-pagelink .btn-wrp .btn{
         margin-left: 50px;
     }
+    .team-slider .slick-slide{
+        width: 435px;
+    }
 }
 @media (max-width: 1460px){
     h1, h2{
@@ -64,6 +67,63 @@
     }
     .b-overview-pagelink .pagelink-col {
         max-width: 85%;
+    }
+    .team-slider{
+        margin-right: calc(-100vw / 2 + 1440px / 2);
+    }
+    .team-slider .slick-slide {
+        width: 410px;
+    }
+    .team-slider .img-wrapper {
+        padding-top: 200px;
+    }
+    .team-slider .slick-arrow.slick-next {
+        left: -160px;
+    }
+    .team-slider .slick-arrow.slick-prev {
+        left: -230px;
+    }
+}
+@media (max-width: 1459px){
+    .team-slider{
+        margin-right: calc(-100vw / 2 + 1300px / 2);
+    }
+    .team-slider .slick-slide {
+        width: 370px;
+    }
+    .team-slider .img-wrapper {
+        padding-top: 200px;
+    }
+}
+@media (max-width: 1400px){
+    .team-slider .slick-arrow.slick-prev {
+        left: -210px;
+    }
+    .team-slider .slick-arrow.slick-next {
+        left: -140px;
+    }
+}
+@media (max-width: 1399px){
+    .team-slider .slick-slide {
+        width: 320px;
+    }
+    .team-slider {
+        margin-right: calc(-100vw / 2 + 1120px / 2);
+    }  
+    .team-slider-sec .col-left .btn {
+        margin-top: 55px;
+    }  
+    .team-slider .img-wrapper {
+        padding-top: 170px;
+    }
+    .team-slider-sec p {
+        font-size: 17px;
+    }
+    .team-slider .slick-arrow.slick-next {
+        left: -118px;
+    }
+    .team-slider .slick-arrow.slick-prev {
+        left: -190px;
     }
 }
 @media (max-width: 1366px){
@@ -97,7 +157,7 @@
     .right-panel .detail{
         line-height: 36px;
     }
-    .proj-col,.team-sec .team-col {
+    .proj-col,.team-sec .team-col,.team-slider .slick-slide {
         padding: 0 15px;
     }
     .proj-row {
@@ -153,6 +213,25 @@
     .m-aboutpage h4,
     .m-aboutpage .left-panel h4{
         font-size: 22px;
+    }
+    .team-slider .slick-list{
+        margin-right: -15px;
+    }
+    .team-slider {
+        margin-left: -15px;
+        margin-right: calc(-100vw / 2 + 1080px / 2);
+    }
+    .team-slider .slick-slide {
+        width: 307px;
+    }
+    .team-slider-sec p {
+        font-size: 18px;
+    }
+    .team-slider .slick-arrow.slick-next {
+        left: -108px;
+    }
+    .team-slider .slick-arrow.slick-prev {
+        left: -175px;
     }
 }
 @media (max-width: 1199px){
@@ -241,6 +320,9 @@
     .m-aboutpage .left-panel h4{
         font-size: 20px;
     }
+    .team-slider {
+        margin-right: calc(-100vw / 2 + 905px / 2);
+    }
 }
 @media (max-width: 991px){
     h3, .h3 {
@@ -282,7 +364,7 @@
     .right-button-panel .btn-row:last-child .button-grp-warpper{
         margin-bottom: 0;
     }
-    .proj-col,.team-sec .team-col {
+    .proj-col,.team-sec .team-col,.team-slider .slick-slide {
         padding: 0 10px;
     }
     .proj-row {
@@ -348,6 +430,19 @@
     }
     .b-overview-pagelink .btn-wrp .btn{
         min-width: 200px;
+    }
+    .team-slider {
+        margin-right: calc(-100vw / 2 + 655px / 2);
+        margin-left: -10px;
+    }
+    .team-slider .slick-list {
+        margin-right: -10px;
+    }
+    .team-slider .slick-arrow.slick-next {
+        left: -80px;
+    }
+    .team-slider .slick-arrow.slick-prev {
+        left: -145px;
     }
 }
 @media (max-width: 767px){
@@ -481,6 +576,41 @@
     .m-aboutpage .pagelink .btn-wrp{
         margin-bottom: -30px;
     }
+    .team-slider {
+        margin: 0;
+    }
+    .team-slider-sec {
+        width: auto;
+        padding: 0;
+    }
+    .team-slider-sec:before{
+        display: none;
+    }
+    .team-sec .team-slider-sec .team-row {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 50px;
+    }
+    .team-slider-sec .col-left .btn {
+        margin-top: 0;
+    }
+    .team-slider-sec p {
+        font-size: 12px;
+    }
+    .team-slider .team-slide {
+        margin-bottom: 30px;
+    }
+    .team-slider > div {
+        width: calc(50% - 10px);
+    }
+    .team-slider{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .team-slider .img-wrapper {
+        padding-top: 180px;
+    }
 }
 @media (max-width: 575px){
     h3, .h3 {
@@ -579,6 +709,12 @@
     }
     .hero-banner.budha-overview .hero-content p{
         width: 100%;
+    }
+    .team-slider > div {
+        width: 100%;
+    }
+    .team-sec .team-slider-sec .team-row{
+        margin-bottom: 30px;
     }
 }
 @media (max-width: 380px){
