@@ -297,8 +297,19 @@ ol {
     width: 100%;
     object-fit: cover;
 }
-
-
+.bg-brown{
+    background-color: #471d19;
+}
+.bg-brown{
+    background-color: #471d19;
+}
+.bg-green{
+    background-color: #818452;
+}
+.bg-yellow{
+    background-color: #b6914d;
+}
+.p{max-width: 100%;font-size: 24px;font-weight: 400;color: #000000;line-height: 40px;}
 /* common css end  */
 
 /* header css  */
@@ -368,7 +379,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
 }
-.center-panel p,.b-overview-sec .center-panel li {
+.center-panel p,.b-overview-sec .center-panel li{
     font-size: 24px;
     font-weight: 400;
     color: #000000;
@@ -393,7 +404,7 @@ header {
     padding-left: 60px;
 }
 .border-bottom{
-    border-bottom-color: #b1afa7 !important;
+    border-bottom-color: #000 !important;
 }
 .right-panel .unit-wrapper {
     padding: 10px 0;
@@ -552,7 +563,7 @@ header {
     margin-bottom: 70px;
 }
 .contactus-panel {
-    border-top: 1px solid #b1afa7;
+    border-top: 1px solid #000;
 }
 .contact-right-panel {
     max-width: 576px;
@@ -622,7 +633,7 @@ table tbody tr:nth-child(odd){
     margin-left: 117px;
 }
 .tbl-sec .tbl-wrp{
-    border-bottom: 1px solid #b1afa7;
+    border-bottom: 1px solid #000;
 }
 /* table css  */
 
@@ -682,7 +693,7 @@ table tbody tr:nth-child(odd){
     padding-bottom: 8px;
 }
 .team-sec .team-box {
-    border-bottom: 1px solid #b1afa7;
+    border-bottom: 1px solid #000;
     padding-bottom: 80px;
     margin-bottom: 80px;
 }
@@ -700,8 +711,8 @@ table tbody tr:nth-child(odd){
 }
 .pagelink .btn-wrp {
     padding: 80px 0;
-    border-top: 1px solid #b1afa7;
-    border-bottom: 1px solid #b1afa7;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
 }
 .hero-banner.team .hero-content p{
     max-width: 762px;
@@ -803,7 +814,7 @@ table tbody tr:nth-child(odd){
     max-width: 100%;
 }
 .b-overview-sec .overview-box:not(:last-child){
-    border-bottom: 1px solid #b1afa7;
+    border-bottom: 1px solid #000;
     padding-bottom: 70px;
     margin-bottom: 70px;
 }
@@ -844,5 +855,45 @@ table tbody tr:nth-child(odd){
     max-width: 725px;
 }
 /* milen road css end */
+
+/* about us main page css start  */
+.title-btn {
+    letter-spacing: 10px;
+    border-radius: 8px;
+    padding: 24px 15px;
+    margin-bottom: 40px;
+}
+.about-column-txt .main-row{
+    margin: 0 -65px;
+}
+.about-column-txt .main-row> div{
+    padding: 0 65px;
+}
+.about-column-txt .about-column-textbox:not(:last-child) {
+    margin-bottom: 65px;
+    padding-bottom: 85px;
+}
+.about-column-txt .about-column-textbox:not(:last-child)::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: calc(100% + 65px);
+    background-color: #000;
+}
+.about-column-txt .half-width p{
+    width: 90%;
+}
+.about-column-txt .half-width h4{
+    letter-spacing: 0;
+    font-size: 24px;
+}
+.about-column-txt .col-left {
+    border-right: 1px solid #000;
+}
+/* about us main page css end  */
+
+
 
 

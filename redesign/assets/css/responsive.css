@@ -49,7 +49,7 @@
     }
     .team-slider .slick-slide{
         width: 435px;
-    }
+    } 
 }
 @media (max-width: 1460px){
     h1, h2{
@@ -58,7 +58,7 @@
     .right-panel .number{
         font-size: 64px;
     }
-    .center-panel p,.b-overview-sec .center-panel li{
+    .center-panel p,.b-overview-sec .center-panel li,.p{
         font-size: 22px;
     }
     header .menu-icon svg {
@@ -82,6 +82,9 @@
     }
     .team-slider .slick-arrow.slick-prev {
         left: -230px;
+    }   
+    .about-column-txt .half-width p {
+        width: 100%;
     }
 }
 @media (max-width: 1459px){
@@ -101,7 +104,7 @@
     }
     .team-slider .slick-arrow.slick-next {
         left: -140px;
-    }
+    }    
 }
 @media (max-width: 1399px){
     .team-slider .slick-slide {
@@ -124,6 +127,15 @@
     }
     .team-slider .slick-arrow.slick-prev {
         left: -190px;
+    }    
+    .about-column-txt .main-row> div {
+        padding: 0 40px;
+    }
+    .about-column-txt .main-row {
+        margin: 0 -40px;
+    }
+    .about-column-txt .about-column-textbox:not(:last-child)::after{
+        width: calc(100% + 40px);
     }
 }
 @media (max-width: 1366px){
@@ -139,13 +151,13 @@
     .proj-card .button-grp-warpper h5 {
         font-size: 14px;
     }
-    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
+    .proj-card h2,.center-panel p,.right-panel .detail,.contact-right-panel p,.contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li,.about-column-txt .half-width h4{
         font-size: 22px;
     }
     .right-panel .number{
         font-size: 56px;
     }
-    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5 {
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5,.p {
         font-size: 20px;
     }
     .proj-col {
@@ -204,7 +216,7 @@
     .b-overview-pagelink .pagelink-col {
         max-width: 100%;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li,.p {
         line-height: 34px;
     }
     .b-overview-sec .center-panel li:not(:last-child) {
@@ -233,6 +245,9 @@
     .team-slider .slick-arrow.slick-prev {
         left: -175px;
     }
+    .title-btn{
+        letter-spacing: 8px;
+    }
 }
 @media (max-width: 1199px){
     h3, .h3 {
@@ -248,7 +263,7 @@
         min-height: 560px;
     }
     .hero-content p,
-    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li{
+    .proj-card h2, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5,.b-overview-sec .center-panel li,.p{
         font-size: 18px;
     }
     .center-panel h2 {
@@ -258,7 +273,7 @@
     .right-panel .number{
         font-size: 44px;
     }
-    .proj-card h2 {
+    .proj-card h2{
         font-size: 22px;
     }
     .proj-card {
@@ -313,15 +328,22 @@
     .b-overview-pagelink .btn-wrp {
         margin-left: -70px;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li,.p{
         line-height: 32px;
     }
-    .m-aboutpage h4,
+    .m-aboutpage h4,.about-column-txt .half-width h4,
     .m-aboutpage .left-panel h4{
         font-size: 20px;
     }
     .team-slider {
         margin-right: calc(-100vw / 2 + 905px / 2);
+    }
+    .title-btn{
+        padding: 20px 15px;
+    }
+    .about-column-txt .about-column-textbox:not(:last-child) {
+        margin-bottom: 40px;
+        padding-bottom: 45px;
     }
 }
 @media (max-width: 991px){
@@ -344,7 +366,7 @@
         height: 20px;
         width: 23px;
     }  
-    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p,.b-overview-sec .center-panel p,.b-overview-sec .center-panel li {
+    .hero-content p, .center-panel p, .right-panel .detail, .contact-right-panel p, .contact-right-panel .button-grp-warpper h5, .footer p,.b-overview-sec .center-panel p,.b-overview-sec .center-panel li,.p {
         font-size: 16px;
         line-height: 30px;
     }  
@@ -444,6 +466,21 @@
     .team-slider .slick-arrow.slick-prev {
         left: -145px;
     }
+    .title-btn{margin-bottom: 30px;padding: 15px;}
+    .about-column-txt .main-row {
+        margin: 0 -25px;
+    }
+    .about-column-txt .main-row> div {
+        padding: 0 25px;
+    }
+    .about-column-txt .about-column-textbox:not(:last-child)::after {
+        width: calc(100% + 25px);
+    }
+    .about-column-txt .about-column-textbox:not(:last-child) {
+        margin-bottom: 30px;
+        padding-bottom: 35px;
+    }   
+    .about-column-txt .half-width h4{font-size: 18px;line-height: 22px;}
 }
 @media (max-width: 767px){
     .pt-160{
@@ -569,7 +606,7 @@
     .m-about .col-right{
         max-width: 100%;
     }
-    .m-aboutpage h4,
+    .m-aboutpage h4,.about-column-txt .half-width h4,
     .m-aboutpage .left-panel h4{
         font-size: 16px;
     }
@@ -610,6 +647,23 @@
     }
     .team-slider .img-wrapper {
         padding-top: 180px;
+    }
+    .title-btn{
+        font-size: 16px;
+        letter-spacing: 6px;
+        border-radius: 4px;
+        padding: 11px 10px;
+    }
+    .about-column-txt .about-column-textbox:not(:last-child)::after{
+        display: none;
+    }
+    .about-column-txt .about-column-textbox:not(:last-child), .about-column-txt .col-left .about-column-textbox{
+        margin-bottom: 40px;
+        padding-bottom: 40px;
+        border-bottom: 1px solid #000;
+    }
+    .about-column-txt .col-left {
+        border-right: 0;
     }
 }
 @media (max-width: 575px){
@@ -683,7 +737,7 @@
         margin-left: 7px;
         padding-left: 12px;
     }
-    .team-sec .team-title .subtitle, .team-sec .team-desc ul li {
+    .team-sec .team-title .subtitle, .team-sec .team-desc ul li{
         font-size: 12px;
     }
     .team-sec .team-title button img {
@@ -700,7 +754,7 @@
         padding-bottom: 20px;
         margin-bottom: 20px;
     }
-    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li{
+    .b-overview-sec .center-panel p,.b-overview-sec .center-panel li,.p{
         font-size: 12px;
         line-height: 18px;
     }
