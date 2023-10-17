@@ -524,6 +524,7 @@ header {
 .proj-card .button-grp-warpper h5::after{
     background: url("../images/arrow-icon-white.png") no-repeat center;
     background-size: 20px;
+    bottom: 0;
 }
 .proj-card .button-grp-warpper {
     float: right;
@@ -896,5 +897,25 @@ table tbody tr:nth-child(odd){
 /* about us main page css end  */
 
 
-
-
+.wellness-banner .hero-content p {
+    max-width: 800px;
+}
+.wellness-txt .overview-box {
+    padding-bottom: 75px;
+    margin-bottom: 75px;
+}
+.wellness-txt .overview-box h6{letter-spacing: 6px;}
+.wellness-txt .overview-box h2{
+    font-size: 60px;
+}
+.wellness-txt .overview-box .residents {
+    padding-right: 90px;
+    border-right: 1px solid #000;
+    margin-right: 80px;
+}
+.pagelink .row.gx-5 {
+    margin: 0 -35px;
+}
+.pagelink .row.gx-5 > div{
+    padding: 0 35px;
+}
