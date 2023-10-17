@@ -86,6 +86,13 @@
     .about-column-txt .half-width p {
         width: 100%;
     }
+    .wellness-txt .overview-box h2 {
+        font-size: 54px;
+    }
+    .wellness-txt .overview-box .residents{
+        padding-right: 80px;
+        margin-right: 70px;
+    }
 }
 @media (max-width: 1459px){
     .team-slider{
@@ -248,6 +255,17 @@
     .title-btn{
         letter-spacing: 8px;
     }
+    .wellness-txt .overview-box {
+        padding-bottom: 65px;
+        margin-bottom: 65px;
+    }    
+    .wellness-txt .overview-box h2 {
+        font-size: 50px;
+    }
+    .wellness-txt .overview-box .residents {
+        padding-right: 65px;
+        margin-right: 55px;
+    }
 }
 @media (max-width: 1199px){
     h3, .h3 {
@@ -344,6 +362,10 @@
     .about-column-txt .about-column-textbox:not(:last-child) {
         margin-bottom: 40px;
         padding-bottom: 45px;
+    }
+    .wellness-txt .overview-box {
+        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 }
 @media (max-width: 991px){
@@ -481,6 +503,13 @@
         padding-bottom: 35px;
     }   
     .about-column-txt .half-width h4{font-size: 18px;line-height: 22px;}
+    .wellness-txt .overview-box h2 {
+        font-size: 46px;
+    }   
+    .wellness-txt .overview-box .residents {
+        padding-right: 60px;
+        margin-right: 50px;
+    } 
 }
 @media (max-width: 767px){
     .pt-160{
@@ -665,6 +694,24 @@
     .about-column-txt .col-left {
         border-right: 0;
     }
+    .wellness-txt .overview-box {
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    .wellness-txt .overview-box .residents {
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+        margin-right: 0;
+        border-right: 0;
+    }
+    .wellness-txt .overview-box h2 {
+        font-size: 40px;
+    }
+    .pagelink .row.gx-5 > div {
+        padding: 0px 20px;
+    }
+    .pagelink .row.gx-5 {
+        margin: 0 -20px;
+    }
 }
 @media (max-width: 575px){
     h3, .h3 {
@@ -770,6 +817,23 @@
     .team-sec .team-slider-sec .team-row{
         margin-bottom: 30px;
     }
+    .wellness-txt .left-panel h4{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .wellness-txt .overview-box {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+    .wellness-txt .overview-box h2 {
+        font-size: 32px;
+    }
+    .wellness-txt .overview-box h6 {
+        letter-spacing: 3px;
+    }
+    .wellness.pagelink .btn-wrp .btn {
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 380px){
     .b-overview-pagelink .btn-wrp .btn {
@@ -780,6 +844,15 @@
 @media (max-width: 375px){
     .center-panel h2 {
         font-size: 22px;
+    }
+    .wellness.pagelink .row.gx-5 > div {
+        padding: 0px 5px;
+    }
+    .wellness.pagelink .row.gx-5 {
+        margin: 0 -5px;
+    }
+    .wellness.pagelink .btn-wrp .btn{
+        padding-right: 10px;
     }
 }
 @media (max-width: 360px){
@@ -802,4 +875,10 @@
     .m-about-hero .hero-content p{
         width: 100%;
     }
- }
+    .pagelink.wellness .row.gx-5 > div {
+        padding: 0px 2px;
+    }
+    .pagelink.wellness .row.gx-5 {
+        margin: 0 -2px;
+    }    
+}
