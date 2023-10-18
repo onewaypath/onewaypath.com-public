@@ -30,6 +30,12 @@
         min-height: 560px;
     }
 }
+@media (max-width: 1580px){
+    .wellness-txt .overview-box .residents{
+        padding-right: 60px;
+        margin-right: 50px;
+    }
+}
 @media (max-width: 1560px){
     header .menu-icon svg {
         height: 35px;
@@ -87,11 +93,11 @@
         width: 100%;
     }
     .wellness-txt .overview-box h2 {
-        font-size: 54px;
+        font-size: 48px;
     }
     .wellness-txt .overview-box .residents{
-        padding-right: 80px;
-        margin-right: 70px;
+        padding-right: 40px;
+        margin-right: 30px;
     }
 }
 @media (max-width: 1459px){
@@ -260,11 +266,7 @@
         margin-bottom: 65px;
     }    
     .wellness-txt .overview-box h2 {
-        font-size: 50px;
-    }
-    .wellness-txt .overview-box .residents {
-        padding-right: 65px;
-        margin-right: 55px;
+        font-size: 46px;
     }
 }
 @media (max-width: 1199px){
@@ -504,12 +506,12 @@
     }   
     .about-column-txt .half-width h4{font-size: 18px;line-height: 22px;}
     .wellness-txt .overview-box h2 {
-        font-size: 46px;
+        font-size: 36px;
     }   
     .wellness-txt .overview-box .residents {
-        padding-right: 60px;
-        margin-right: 50px;
-    } 
+        padding-right: 30px;
+        margin-right: 20px;
+    }
 }
 @media (max-width: 767px){
     .pt-160{
