@@ -29,6 +29,18 @@ $(document).ready(function() {
       $('.team-slider').slick('setPosition');
     });
   }
+  $('[data-bs-toggle="collapse"]').on('click', function() {
+    // Get the target collapse
+    var targetCollapse = $(this).data('bs-target');
+    
+    // Close other collapses
+    $('.collapse.show').each(function() {
+        if ($(this).attr('id') !== targetCollapse.replace('#', '')) {
+            $(this).collapse('hide');
+        }
+    });
+  });
+  
 });
 
 let vh = window.innerHeight * 0.01;
