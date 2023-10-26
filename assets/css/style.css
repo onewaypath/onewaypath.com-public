@@ -789,6 +789,9 @@ table tbody tr:nth-child(odd){
     padding: 0 35px;
     width: 450px;
 }
+.team-slider .slick-slide.two-col-slide{
+    width: 900px;
+}
 .team-slider{
     margin-left: -35px;
     margin-right: calc(-100vw / 2 + 1520px / 2);
@@ -830,6 +833,43 @@ table tbody tr:nth-child(odd){
 }
 .slick-arrow.slick-prev.slick-disabled {
     cursor: not-allowed;
+}
+#AlexYoung .team-slider .slick-arrow {
+    bottom: 190px;
+}
+#AlexYoung .team-slider .slick-arrow.slick-prev{
+    left: -312px;
+}
+#AlexYoung .slick-arrow.slick-next {
+    left: -255px;
+}
+.team-sec .team-col .profile-block{
+    min-width: 180px;
+}
+.team-sec .team-col .profile-block .img-wrapper {
+    padding-top: 125%;
+}
+.team-sec .team-col .close-btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #cc0303;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 43px;
+    margin-left: 115px;
+    opacity: 0;
+    transition: 0.6s;
+}
+.team-sec .team-col.show .close-btn{
+    opacity: 1;
+}
+.team-sec .team-col .close-btn:hover{
+    background-color: #cc0303;
+}
+.team-sec .team-col .close-btn:hover path{
+    fill: #fff;
 }
 /* team section css  */
 
@@ -1008,6 +1048,18 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-slide{
         width: 435px;
     } 
+    .team-slider .slick-slide.two-col-slide{
+        width: 870px;
+    }
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 219px;
+    }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -305px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -248px;
+    }
 }
 @media (max-width: 1460px){
     h1,.h1{
@@ -1038,6 +1090,9 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-slide {
         width: 410px;
     }
+    .team-slider .slick-slide.two-col-slide{
+        width: 820px;
+    }
     .team-slider .img-wrapper {
         padding-top: 200px;
     }
@@ -1057,6 +1112,12 @@ table tbody tr:nth-child(odd){
         padding-right: 40px;
         margin-right: 30px;
     }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -290px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -233px;
+    }
 }
 @media (max-width: 1459px){
     .team-slider{
@@ -1065,8 +1126,20 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-slide {
         width: 370px;
     }
+    .team-slider .slick-slide.two-col-slide{
+        width: 740px;
+    }
     .team-slider .img-wrapper {
         padding-top: 200px;
+    }
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 279px;
+    }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -270px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -214px;
     }
 }
 @media (max-width: 1400px){
@@ -1076,10 +1149,22 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-arrow.slick-next {
         left: -140px;
     }    
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 189px;
+    }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -247px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -190px;
+    }
 }
 @media (max-width: 1399px){
     .team-slider .slick-slide {
         width: 320px;
+    }
+    .team-slider .slick-slide.two-col-slide{
+        width: 640px;
     }
     .team-slider {
         margin-right: calc(-100vw / 2 + 1120px / 2);
@@ -1207,6 +1292,9 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-slide {
         width: 307px;
     }
+    .team-slider .slick-slide.two-col-slide{
+        width: 614px;
+    }
     .team-slider-sec p {
         font-size: 18px;
     }
@@ -1225,6 +1313,15 @@ table tbody tr:nth-child(odd){
     }    
     .wellness-txt .overview-box h2 {
         font-size: 46px;
+    }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -240px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -183px;
+    }
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 213px;
     }
 }
 @media (max-width: 1280px){
@@ -1328,6 +1425,9 @@ table tbody tr:nth-child(odd){
     }
     .team-slider {
         margin-right: calc(-100vw / 2 + 905px / 2);
+    }
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 215px;
     }
     .title-btn{
         padding: 20px 15px;
@@ -1464,6 +1564,18 @@ table tbody tr:nth-child(odd){
     .team-slider .slick-arrow.slick-prev {
         left: -145px;
     }
+    .team-slider .slick-slide.two-col-slide {
+        width: 450px;
+    }
+    #AlexYoung .team-slider .slick-arrow {
+        bottom: 228px;
+    }
+    #AlexYoung .team-slider .slick-arrow.slick-prev {
+        left: -200px;
+    }
+    #AlexYoung .slick-arrow.slick-next {
+        left: -143px;
+    }
     .title-btn{margin-bottom: 30px;padding: 15px;}
     .about-column-txt .main-row {
         margin: 0 -25px;
@@ -1486,6 +1598,7 @@ table tbody tr:nth-child(odd){
         padding-right: 30px;
         margin-right: 20px;
     }
+
 }
 @media (max-width: 767px){
     
@@ -1657,6 +1770,9 @@ table tbody tr:nth-child(odd){
     }
     .team-slider .img-wrapper {
         padding-top: 180px;
+    }
+    .team-slider > div.two-col-slide {
+        width: 100%;
     }
     .title-btn{
         font-size: 16px;
